@@ -13,9 +13,7 @@
 .w-60 {
     width: 60%;
 }
-.w-80 {
-    width:80%
-}
+
 /* Lists */
 ul, ol {
     padding: 0;
@@ -54,4 +52,10 @@ ul, ol {
 footer a {
     color: #6c757d;
     text-decoration:none;
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .w-lg-80 {
+        width:80%
+    }
 }
